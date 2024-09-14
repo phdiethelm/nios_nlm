@@ -1,0 +1,4 @@
+    NiosPrintf,
+    IPExtendedIFInfo,
+    NiosGetVersion,
+    
