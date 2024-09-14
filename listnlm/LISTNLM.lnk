@@ -1,0 +1,11 @@
+FORMAT     NOVELL NLM 'LISTNLM - LIST LOADED MODULES'
+IMPORT     @LISTNLM.IMP
+NAME       LISTNLM.NLM
+OP MAP
+OP NOD
+OP START = NlmMain
+OP CHECK = NlmCheckUnload
+OP EXIT  = NlmExit
+OP VERS  = 1.0.0
+OP COPYR = '(c) Copyright 2006 0xbadc0ded\0'
+FILE listnlm.obj
