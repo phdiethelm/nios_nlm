@@ -1,0 +1,11 @@
+FORMAT     NOVELL NLM 'SHF TEMPLATE'
+IMPORT     @TEMPL.IMP
+NAME       TEMPL.NLM
+OP MAP
+OP NOD
+OP START = NlmMain
+OP CHECK = NlmCheckUnload
+OP EXIT  = NlmExit
+OP VERS  = 0.01
+OP COPYR = '(c) Copyright 2006 0xbadc0ded, All rights reserved'
+FILE template.obj
